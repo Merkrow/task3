@@ -498,12 +498,21 @@ footer div {
 .child1 > div {
     width: 100%;
   }
+ .child3 > div {
+ 	width: 50%;
+ }
+.logo {
+	width: 20%;
+}
 .child2 > div {
  	width: 44%;
  }
  .social div {
 	width: 100%;
  }
+.portfolio ul {
+	width: 100%;
+}
 nav ul { display: none; }
 nav select { display: inline-block; }
 .social a {
@@ -512,20 +521,61 @@ nav select { display: inline-block; }
 	margin: 0 2%;
 	height: 8vh;
 }
+footer div {
+	width: 90%;
+	
+}
+footer ul {
+	display: table;
+}
+footer ul li {
+	display: table-cell;
+}
+.feed div {
+	width: 100%;
+}
 
 }
 @media (max-width: 600px) {
 .child2 > div {
 	width: 100%;
 }
+.child3 > div {
+	width: 100%;
+}
+.portfolio ul {
+	width: 100%;
+}
+.portfolio ul li {
+	width: 15%;
+}
+.logo {
+	width: 30%;
+}
+footer div {
+	width: 80%;
+	margin: 0 auto;
+
+}
+footer ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+footer ul li {
+		width: 20%;
+		margin: 0 5%;
+}
+
 
 .team .sm-border:after {
 	top: 55%;
 }
 .feed .sm-border:after {
-	top: 30%;
+	top: 40%;
 }
 .feedback .sm-border:after {
 	top: 65%;
 }
 }
+
