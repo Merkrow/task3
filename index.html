@@ -5,6 +5,7 @@
 	<title>task3</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -18,11 +19,19 @@
 					<li><a href="#">BLOG</a></li>
 					<li><a href="#">CONTACT</a></li>
 				</ul>
+				<select>
+					<option value="" selected="selected">Select</option>
+					<option value="#">HOME</option>
+					<option value="#">ABOUT</option>
+					<option value="#">WORK</option>
+					<option value="#">BLOG</option>
+					<option value="#">CONTACT</option>
+				</select>
 			</nav>
 		</div>
 		<div class="invite">
 			<h1>Hi there! We are the new kids on the block and we build awesome websites and mobile apps.</h1>
-			<button class="button">Work with us!</button>
+			<button>Work with us!</button>
 		</div>
 	</header>
 	<section class="services">
@@ -32,7 +41,7 @@
 			</div>
 			<p>We are working with both individual and businesses from all over the globe to create awesome websites and applications.</p>
 		</div>
-		<div class="service">
+		<div class="service child">
 			<div>
 				<div class="service1">
 				</div>
@@ -74,12 +83,17 @@
 			</div>
 			<p>We are working with both individual and businesses from all over the globe to create awesome websites and applications.</p>
 		</div>
-		<div class="our_team">
+
+		<div class="our_team child">
 			<div>
-				<div class="teammate1"></div>
-				<h3>ANNE HATHAWAY</h3>
-				<h5>CEO / Marketing Guru</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis voluptatibus numquam, eligendi molestiae quam. Esse blanditiis possimus, atque repellat nemo, non, ab ipsum rem maiores libero nam quidem dicta voluptatem!</p>
+				<div>
+					<div class="teammate1"></div>
+				</div>
+				<div class="wrap">
+					<h3>ANNE HATHAWAY</h3>
+					<h5>CEO / Marketing Guru</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis voluptatibus numquam, eligendi molestiae quam. Esse blanditiis possimus, atque repellat nemo, non, ab ipsum rem maiores libero nam quidem dicta voluptatem!</p>
+				</div>
 				<div class="social">
 					<a href="#"><div class="fb"></div></a>
 					<a href="#"><div class="twitter"></div></a>
@@ -88,10 +102,14 @@
 				</div>
 			</div>
 			<div>
-				<div class="teammate2"></div>
-				<h3>KATE UPTON</h3>
-				<h5>Creative Director</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum deserunt eius animi explicabo ex quidem mollitia dolor qui atque, veritatis quam maiores quaerat commodi ab facere velit at, distinctio culpa.</p>
+				<div>
+					<div class="teammate2"></div>
+				</div>
+				<div class="wrap">
+					<h3>KATE UPTON</h3>
+					<h5>Creative Director</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum deserunt eius animi explicabo ex quidem mollitia dolor qui atque, veritatis quam maiores quaerat commodi ab facere velit at, distinctio culpa.</p>
+				</div>
 				<div class="social">
 					<a href="#"><div class="twitter"></div></a>
 					<a href="#"><div class="linkedin"></div></a>
@@ -99,10 +117,14 @@
 				</div>
 			</div>
 			<div>
-				<div class="teammate3"></div>
-				<h3>OLIVIA WILDE</h3>
-				<h5>Lead Designer</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam neque, quia, autem temporibus at est magnam itaque sint incidunt, nihil, nam accusantium voluptatibus consequuntur. Quod ipsum esse perspiciatis debitis sit.</p>
+				<div>
+					<div class="teammate3"></div>
+				</div>
+				<div class="wrap">
+					<h3>OLIVIA WILDE</h3>
+					<h5>Lead Designer</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam neque, quia, autem temporibus at est magnam itaque sint incidunt, nihil, nam accusantium voluptatibus consequuntur. Quod ipsum esse perspiciatis debitis sit.</p>
+				</div>
 				<div class="social">
 					<a href="#"><div class="fb"></div></a>
 					<a href="#"><div class="twitter"></div></a>
@@ -111,10 +133,14 @@
 				</div>
 			</div>
 			<div>
-				<div class="teammate4"></div>
-				<h3>ASHLEY GREENE</h3>
-				<h5>SEO / Developer</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ullam voluptatum, velit consequuntur sit provident veritatis cum dolorem, modi voluptatibus, ab laborum doloribus asperiores officiis eveniet. Facilis praesentium, accusantium adipisci.</p>
+				<div>
+					<div class="teammate4"></div>
+				</div>
+				<div class="wrap">
+					<h3>ASHLEY GREENE</h3>
+					<h5>SEO / Developer</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ullam voluptatum, velit consequuntur sit provident veritatis cum dolorem, modi voluptatibus, ab laborum doloribus asperiores officiis eveniet. Facilis praesentium, accusantium adipisci.</p>
+				</div>
 				<div class="social">
 					<a href="#"><div class="fb"></div></a>
 					<a href="#"><div class="twitter"></div></a>
@@ -122,6 +148,7 @@
 				</div>
 			</div>
 		</div>
+		
 	</section>
 	<section class="skills">
 		<div class="outer">
@@ -130,34 +157,33 @@
 			</div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 		</div>
-		<div class="charts">
+		<div class="charts child">
+		<div>
 			<div class="chart1">
 				<h2>90%</h2>
 			</div>
+				<h4>WEB DESIGN</h4>
+			</div>
+		<div>
 			<div class="chart2">
 				<h2>75%</h2>
 			</div>
+				<h4>HTML/CSS</h4>
+			</div>
+		<div>
 			<div class="chart3">
 				<h2>70%</h2>
 			</div>
+				<h4>GRAPHIC DESIGN</h4>
+			</div>
+		<div>
 			<div class="chart4">
 				<h2>85%</h2>
 			</div>
-		</div>
-		<div class="captions">
-			<div>
-				<h4>WEB DESIGN</h4>
-			</div>
-			<div>
-				<h4>HTML/CSS</h4>
-			</div>
-			<div>
-				<h4>GRAPHIC DESIGN</h4>
-			</div>
-			<div>
 				<h4>UI / UX</h4>
 			</div>
 		</div>
+		
 	</section>
 	<section class="portfolio">
 		<div class="outer">
@@ -172,7 +198,7 @@
 				<li><a href="#">ICONS</a></li>
 			</ul>
 		</div>
-		<div class="image_container">
+		<div class="image_container child">
 			<div>
 				<figure>
 					<img src="images/work1.png" alt="">
@@ -207,7 +233,7 @@
 			</div>
 			<p>Our clients love us!</p>
 		</div>
-		<div class="clients">
+		<div class="clients child">
 			<div>
 				<div></div>
 				<div>
@@ -254,7 +280,7 @@
 			<input type="text" placeholder="Your Email" />
 		</div>
 		<div>
-			<textarea name="message" id="" cols="90" rows="8" placeholder="Your Message"></textarea>
+			<textarea name="message" rows="8" placeholder="Your Message"></textarea>
 		</div>
 		<button>SEND MESSAGE</button>
 	</section>
