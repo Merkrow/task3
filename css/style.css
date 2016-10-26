@@ -479,6 +479,21 @@ footer div {
  .child1  div {
     width: 100%;
   }
+  .child2 > div {
+	width: 100%;
+}
+.child3 > div {
+	width: 100%;
+}
+.social div {
+	width: 100%;
+ }
+ .feed div {
+	width: 100%;
+}
+.logo {
+	width: 30%;
+}
   nav ul { display: none; }
   nav select { display: inline-block; }
 .social a {
@@ -523,7 +538,6 @@ nav select { display: inline-block; }
 }
 footer div {
 	width: 90%;
-	
 }
 footer ul {
 	display: table;
