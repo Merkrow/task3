@@ -886,6 +886,9 @@ footer div {
     .feed div {
         width: 100%;
     }
+    .feedback .sm-border:after {
+        top: 70%;
+    }
 }
 
 
@@ -916,7 +919,9 @@ footer div {
         margin: 0 auto;
     }
 
-
+	.portfolio .sm-border:after {
+		top: 15%;
+	}
     .team .sm-border:after {
         top: 55%;
     }
