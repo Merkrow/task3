@@ -886,8 +886,14 @@ footer div {
     .feed div {
         width: 100%;
     }
+    .portfolio .sm-border:after {
+    	top: 20%;
+    }
     .feedback .sm-border:after {
         top: 70%;
+    }
+    .skills .sm-border:after {
+    	top: 25%;
     }
 }
 
@@ -920,7 +926,7 @@ footer div {
     }
 
 	.portfolio .sm-border:after {
-		top: 15%;
+		top: 20%;
 	}
     .team .sm-border:after {
         top: 55%;
@@ -929,6 +935,14 @@ footer div {
     .feed .sm-border:after {
         top: 40%;
     }
+	
+	.skills .sm-border:after {
+		top: 20%;
+	}
+
+	.services .sm-border:after {
+		top: 40%;
+	}
 
     .feedback .sm-border:after {
         top: 65%;
